@@ -37,7 +37,7 @@
 
 .featured-card-badge {
   position: relative;
-  background: linear-gradient(90deg, #fff800 0%, #fffecc 100%);
+  background: linear-gradient(90deg, #4c1d95 0%, #9333ea 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -48,7 +48,7 @@
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0) 15%,
-    rgba(255, 248, 0, 0.6) 50%,
+    rgba(147, 51, 234, 0.6) 50%,
     rgba(255, 255, 255, 0) 85%
   );
   position: absolute;
@@ -66,7 +66,7 @@
   inset: 0;
   border-radius: 16px 16px 0 0;
   padding: 1px 1px 0;
-  background: linear-gradient(180deg, #414b4e 49.5%, rgba(65, 75, 78, 0) 100%);
+  background: linear-gradient(180deg, rgba(147, 51, 234, 0.5) 49.5%, rgba(147, 51, 234, 0) 100%);
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
@@ -105,7 +105,7 @@
   width: 296px;
   border-radius: 296px;
   opacity: 0.2;
-  background: #fddd35;
+  background: #9333ea;
   filter: blur(32px);
 }
 
@@ -118,7 +118,7 @@
   top: -2px;
   border-radius: 196px;
   opacity: 0.5;
-  background: #4d94ff;
+  background: #c084fc;
   filter: blur(12px);
 }
 
@@ -129,7 +129,7 @@
   left: 50%;
   margin-left: -44px;
   top: -2px;
-  background: #fff800;
+  background: #9333ea;
   opacity: 0.5;
   filter: blur(12px);
 }

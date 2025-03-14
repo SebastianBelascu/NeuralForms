@@ -10,6 +10,7 @@ import { HeroSection } from '@/components/home/hero-section/hero-section';
 import { Pricing } from '@/components/home/pricing/pricing';
 import { HomePageBackground } from '@/components/gradients/home-page-background';
 import { Footer } from '@/components/home/footer/footer';
+import { Features } from '@/components/home/features/features';
 
 export function HomePage() {
   const supabase = createClient();
@@ -23,6 +24,7 @@ export function HomePage() {
         <HomePageBackground />
         <Header user={user} />
         <HeroSection />
+        <Features />
         <Pricing country={country} />
         <Footer />
       </div>
